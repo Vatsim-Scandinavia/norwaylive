@@ -1,0 +1,115 @@
+
+/* Main */
+
+body{
+    font-family: Roboto, sans-serif;
+    background-color: rgb(237, 240, 244);
+}
+
+.container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.box{
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    border-radius: 0px;
+    box-shadow: 0px 2px 4px -1px rgba(45,55,72,0.1);
+
+    font-size: 0.875rem;
+}
+
+footer{
+    padding: 30px;
+    margin-top: 3rem;
+    text-align: center;
+    background-color: #011328;
+    color: white;
+
+    text-decoration: none;
+}
+
+/* Buttons */
+
+.btn-primary{
+    color: white !important;
+    background-color: #1a475f !important;
+    border-color: #1a475f !important;
+}
+
+.btn-primary:hover{
+    background-color: #102c3b !important;
+}
+
+.btn-outline-primary{
+    color: #1a475f !important;
+    border-color: #1a475f !important;
+}
+
+.btn-outline-primary:hover{
+    color: white !important;
+    background-color: #102c3b !important;
+    border-color: #102c3b !important;
+}
+
+/* Links */
+
+a{
+    color: #011328;
+}
+
+a:hover{
+    color: #43c6e7;
+}
+
+/* Headings */
+
+h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Custom */
+
+#hero{
+    height: 30vh;
+
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 15%;
+
+    color: white;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 800;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.lastupdate{
+    font-size: 0.75rem;
+    color: #6c757d;
+}
+
+/* Responsiveness */
+
+/* Phones and small */
+@media (max-width: 767.98px) { 
+
+    #hero{
+        font-size: 3rem;
+    }
+
+}
+
+/* Old small shitphones */
+@media (max-width: 320px) { 
+    #hero{
+        height: 10vh;
+        padding-top: 3vh;
+        font-size: 1.5rem;
+    }
+}
