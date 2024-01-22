@@ -3,7 +3,7 @@
 
 body{
     font-family: Roboto, sans-serif;
-    background-color: rgb(237, 240, 244);
+    background-color: #f4f1ed;
 }
 
 .container{
@@ -25,7 +25,7 @@ footer{
     padding: 30px;
     margin-top: 3rem;
     text-align: center;
-    background-color: #011328;
+    background-color: #251402;
     color: white;
 
     text-decoration: none;
@@ -35,23 +35,23 @@ footer{
 
 .btn-primary{
     color: white !important;
-    background-color: #1a475f !important;
-    border-color: #1a475f !important;
+    background-color: #ad6240 !important;
+    border-color: #ad6240 !important;
 }
 
 .btn-primary:hover{
-    background-color: #102c3b !important;
+    background-color: #e78d65 !important;
 }
 
 .btn-outline-primary{
-    color: #1a475f !important;
-    border-color: #1a475f !important;
+    color: #90370f !important;
+    border-color: #ad6240 !important;
 }
 
 .btn-outline-primary:hover{
     color: white !important;
-    background-color: #102c3b !important;
-    border-color: #102c3b !important;
+    background-color: #ad6240 !important;
+    border-color: #ad6240 !important;
 }
 
 /* Links */
@@ -91,7 +91,7 @@ h2{
 
 .lastupdate{
     font-size: 0.75rem;
-    color: #6c757d;
+    color: #535a60;
 }
 
 /* Responsiveness */
