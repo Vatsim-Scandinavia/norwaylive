@@ -105,6 +105,25 @@ h2.small{
     color: #535a60;
 }
 
+.agenda-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.agenda{
+    width: 33.3%;
+}
+
+.agenda ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mt-3{
+    margin-top: 3rem;
+}
+
 /* Responsiveness */
 
 /* Phones and small */
