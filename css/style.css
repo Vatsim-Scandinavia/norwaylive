@@ -21,6 +21,10 @@ body{
     font-size: 0.875rem;
 }
 
+.box img{
+    display: block;
+}
+
 footer{
     padding: 30px;
     margin-top: 3rem;
@@ -79,6 +83,10 @@ h1{
 h2{
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+h2.subtitle{
+    color: white;
 }
 
 h2.small{
